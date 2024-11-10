@@ -13,8 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code
 COPY . .
 
-# Expose port 5000
-EXPOSE 5000
+# Expose port 8080
+EXPOSE 8080
 
 # Set environment variables for Flask
 ENV FLASK_APP=main.py
