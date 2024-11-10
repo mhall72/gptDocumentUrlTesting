@@ -136,4 +136,4 @@ def submit_resumes():
 
 if __name__ == '__main__':
     print("Starting Flask server on port 5000...")
-    app.run(port=5000)
+    app.run(port=8080)
